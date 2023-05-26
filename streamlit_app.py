@@ -4,6 +4,7 @@ streamlit.header('Breakfast Menu')
 streamlit.text('Omega')
 streamlit.text('Kale')
 streamlit.text('boiled egg salad')
+streamlit.header('🍌🥭 Build Your Own Fruit Smoothie 🥝🍇')
 
 import requests
 fruityvice_response=requests.get("https://fruityvice.com/api/fruit/watermelon")
