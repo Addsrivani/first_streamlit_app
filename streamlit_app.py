@@ -1,5 +1,9 @@
 import streamlit
 streamlit.title('My parents new healthy meal')
+streamlit.header('Breakfast Menu')
+streamlit.text('Omega')
+streamlit.text('Kale')
+streamlit.text('boiled egg salad')
 
 import requests
 fruityvice_response=requests.get("https://fruityvice.com/api/fruit/watermelon")
